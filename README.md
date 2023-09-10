@@ -49,7 +49,7 @@ To use the application, open your terminal and navigate to the project directory
 
 ### Get Information about Available Devices:
 
-**node app.js get-devices**
+``node app.js get-devices``
 
 ### Pause the Currently Playing Music:
 
