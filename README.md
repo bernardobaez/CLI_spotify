@@ -45,7 +45,7 @@ To use the application, open your terminal and navigate to the project directory
 
 ### Get Information about Currently Playing Music:
 
-**node app.js get-music**
+``node app.js get-music``
 
 ### Get Information about Available Devices:
 
@@ -53,31 +53,31 @@ To use the application, open your terminal and navigate to the project directory
 
 ### Pause the Currently Playing Music:
 
-**node app.js pause**
+``node app.js pause``
 
 ### Resume or Start Playing Music:
 
-**node app.js play**
+``node app.js play``
 
 ### Play the Next Track:
 
-**node app.js next**
+``node app.js next``
 
 ### Play the Previous Track:
 
-**node app.js previous**
+``node app.js previous``
 
 ### Set Repeat Mode (context, track, or off):
 *Replace <option> with 'context', 'track', or 'off'.*
 
-**node app.js repeat <option>**
+``node app.js repeat <option>``
 
 ### Adjust the Music Volume (0-100):
 
-**node app.js volume <volume>**
+``node app.js volume <volume>``
 
 ### Transfer Music Playback to a Specified Device:
 *Replace [device_name...] with the name of the device to which you want to transfer playback.*
 
-**node app.js transfer-to [device_name...]**
+``node app.js transfer-to [device_name...]``
 
