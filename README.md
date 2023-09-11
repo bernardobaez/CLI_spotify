@@ -1,6 +1,4 @@
-# Spotify CLI Application
-
-This is a command-line interface (CLI) application for interacting with the Spotify API. You can use this application to control your Spotify playback, get information about currently playing music, and more.
+# Spotify CLI Applicatmain.js
 
 ## Prerequisites
 
@@ -45,39 +43,39 @@ To use the application, open your terminal and navigate to the project directory
 
 ### Get Information about Currently Playing Music:
 
-``node app.js get-music``
+``node main.js get-music``
 
 ### Get Information about Available Devices:
 
-``node app.js get-devices``
+``node main.js get-devices``
 
 ### Pause the Currently Playing Music:
 
-``node app.js pause``
+``node main.js pause``
 
 ### Resume or Start Playing Music:
 
-``node app.js play``
+``node main.js play``
 
 ### Play the Next Track:
 
-``node app.js next``
+``node main.js next``
 
 ### Play the Previous Track:
 
-``node app.js previous``
+``node main.js previous``
 
 ### Set Repeat Mode (context, track, or off):
 *Replace <option> with 'context', 'track', or 'off'.*
 
-``node app.js repeat <option>``
+``node main.js repeat <option>``
 
 ### Adjust the Music Volume (0-100):
 
-``node app.js volume <volume>``
+``node main.js volume <volume>``
 
 ### Transfer Music Playback to a Specified Device:
 *Replace [device_name...] with the name of the device to which you want to transfer playback.*
 
-``node app.js transfer-to [device_name...]``
+``node main.js transfer-to [device_name...]``
 
