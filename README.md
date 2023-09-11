@@ -1,4 +1,4 @@
-# Spotify CLI Applicatmain.js
+# Spotify CLI Application
 
 ## Prerequisites
 
